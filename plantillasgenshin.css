@@ -1,0 +1,707 @@
+/*PLANTILLA PRINCIPAL*/ 
+
+.caseta {  
+  width: 400px;   
+  height: auto;   
+  background: #fff;   
+  border: solid 5px #f7f7f7;   
+  outline: solid 1px #ccc;   
+  margin: 0 auto;   
+  font-family: Arial;  
+}   
+
+.mansion{  
+  font-size: 80px;   
+  color: #274a91;   
+  width: 80px;   
+  display: inline-block;   
+  padding: 20px 0px 10px 20px;  
+}   
+
+.puerta {  
+  display: inline-block;   
+  width: 300px;   
+  vertical-align: top;  
+}   
+
+.piso {  
+  width: 290px;   
+  vertical-align: top;   
+  font-family: Abril Fatface;   
+  font-size: 30px;   
+  font-weight: 900;   
+  color: #274a91;   
+  text-align: center;   
+  padding-top: 30px;   
+  text-decoration: underline;  
+}   
+
+.escaleras{  
+  padding: 20px 30px;   
+  color: #536482;   
+  text-align: center;   
+  line-height: 12px;   
+  font-family: Arial;  
+}   
+
+.meseta {  
+  line-height: 12px;   
+  font-family: Arial;   
+  padding: 20px;   
+  color: #536482;  
+}   
+
+.ventana {  
+  font-family: Abril Fatface;   
+  border: solid 1px #ccc;   
+  text-align: center;   
+  color: #274a91;   
+  font-size: 15px;   
+  margin-top: 10px;  
+}   
+
+.iconito {  
+  width: 40px;   
+  height: 40px;   
+  background: #274a91;   
+  display: inline-block;   
+  padding: 0px 2px;  
+}   
+
+.icon-honey {  
+  width: 40px;   
+  height: 40px;   
+  background: #274a91;   
+  display: inline-block;   
+  padding: 10px 2px 0px 2px;   
+  font-size: 30px;   
+  color:#fff;  
+}   
+
+.cortina{  
+  width: 270px;   
+  display: inline-block;   
+  vertical-align: top;   
+  font-size: 20px;   
+  padding-top: 12px;  
+}   
+
+.subcortina {  
+  text-transform: uppercase;   
+  margin: 0 auto;   
+  text-align: center;   
+  font-size: 12px;   
+  font-family: Abril Fatface;   
+  width: 270px;   
+  background: #274a91;   
+  color: #fff;   
+  padding: 3px 0px;  
+}   
+
+.crystal {  
+  width: 400px;   
+  margin: 0 auto;   
+  color: #274a91;   
+  text-align: center;   
+  font-size: 9px;   
+  text-transform: uppercase;   
+  font-family: Arial;  
+} 
+
+/*BOTONES ADMINISTRATIVOS*/
+
+.barbara {
+  margin: 0 auto; 
+  height: 100px; 
+  width: 300px; 
+  border: solid 5px #f7f7f7; 
+  outline: solid 1px #ccc; 
+  background-image: url("https://i.imgur.com/cnVR2r8.png");
+} 
+
+.kaeya {
+  color: #274a91; 
+  font-size: 80px; 
+  padding: 10px; 
+  width: 70px; 
+  display: inline-block;
+} 
+
+.xiao {
+  width: 210px; 
+  display: inline-block; 
+  font-size: 27px; 
+  line-height: 12px; 
+  vertical-align: top; 
+  color: #274a91; 
+  font-family: Abril Fatface; 
+  padding-top: 20px; 
+  text-align: center;
+} 
+
+.keqing {
+  text-decoration: underline;
+} 
+
+.zhongli {
+  font-size: 12px; 
+  font-family: Arial; 
+  padding: 25px 20px;
+} 
+/**FICHA DE STATS — STATS*/
+
+.cordura {
+  margin: 0 auto; 
+  background: #fff; 
+  height: 260px; 
+  width: 510px; 
+  border: solid 5px #f7f7f7; 
+  outline: solid 1px #ccc;  
+  z-index: 2; 
+  font-family: Verdana; 
+  color: #536482;
+} 
+
+.bordura {
+  color: #274A91; 
+  font-family: Abril Fatface; 
+  padding: 10px; 
+  font-size: 28px; 
+  line-height: 24px; 
+  text-align: center;
+} 
+
+.criatura {
+  font-family: Oswald; 
+  width: 84px; 
+  display: inline-block; 
+  padding: 5px 0px 0px 5px;
+  margin: 0px 0px; 
+  background: #F7F7F7; 
+  color: #536482; 
+  height: 20px; 
+  font-size: 16px; 
+  text-transform: uppercase; 
+  border-top: solid 1px #ccc; 
+  border-right: solid 1px #ccc;
+} 
+
+.beatura {
+  width: 450px; 
+  margin: 0 auto;
+} 
+
+.teatura {
+  background: #fff; 
+  color: #536482; 
+  height: 17px; 
+  padding: 1px 4px 0px 4px; 
+  width: 80px; 
+  font-size: 11px; 
+  vertical-align: top; 
+  border: solid 1px #ccc;
+} 
+
+.tinatura {
+  width: 140px; 
+  display: inline-block; 
+  margin: 0px 5px; 
+  font-size: 38px;
+} 
+
+#icon-icondura1, #icon-icondura2, #icon-icondura3, #icon-icondura4, #icon-icondura5, #icon-icondura6, #icon-icondura7, #icon-icondura8, #icon-icondura9, #icon-icondura10 {
+  background: #274A91; 
+  padding: 4px 3px 4px 3px; 
+  color: #fff;
+} 
+
+.juntura {
+  width: 80px; 
+  display: inline-block;
+} 
+
+.basurita {
+  margin: 0 auto; 
+  width: 480px; 
+  vertical-align: bottom;
+}
+
+/**FICHA DE STATS — INVENTARIO*/
+
+.estrellita {
+  margin: 0 auto; 
+  background: #fff; 
+  height: 780px; 
+  width: 510px; 
+  border: solid 5px #f7f7f7; 
+  outline: solid 1px #ccc;  
+  z-index: 2;
+}
+
+.passivedrei {
+  font-family: Verdana,Arial,Helvetica,sans-serif; 
+  font-size: 10px; 
+  line-height: 12px; 
+  color: #536482; 
+  text-align: left;
+} 
+
+.rosa {
+  font-family: Abril Fatface; 
+  border: solid 1px #ccc; 
+  text-align: center; 
+  color: #274a91; 
+  font-size: 15px; 
+  margin-top: 10px; 
+  width: 503px;
+} 
+
+.gris{
+  width: 415px; 
+  display: inline-block; 
+  vertical-align: top; 
+  font-size: 20px; 
+  padding-top: 12px;
+} 
+
+.crystal-azul {
+  width: 510px; 
+  color: #274a91; 
+  text-align: center; 
+  font-size: 9px; 
+  text-transform: uppercase; 
+  font-family: Arial; 
+  margin-top: -10px;
+}
+
+.negro, .rojo {
+  width: 505px; 
+  position: relative;
+} 
+
+.octavo, .noveno {
+  margin: 4px 0px 0px 0px; 
+  z-index: 1; 
+  display: block; 
+  text-transform: uppercase; 
+  text-align: center; 
+  font-size: 12px; 
+  font-family: Abril Fatface; 
+  width: 505px; 
+  background: #274a91; 
+  color: #fff; 
+  padding: 3px 0px; 
+  border: none; 
+  position: relative; 
+  height: 25px;
+} 
+
+.blanco {
+  opacity: 0; 
+  transition: all 0.5s linear; 
+  z-index: 0; 
+  height: 0px; 
+  background: white; 
+  width: 503px; 
+  border: solid 1px #274a91;
+} 
+
+.verde [type=radio], .aquamarine [type=radio] {
+  display: none;
+} 
+
+[type=radio]:checked ~ .octavo, [type=radio]:checked ~ .noveno {
+  z-index: 3; 
+  text-transform: 
+  uppercase; text-align: 
+  center; font-size: 12px; 
+  font-family: Abril Fatface; 
+  width: 505px; 
+  background: #274a91; 
+  color: #fff; 
+  padding: 3px 0px; 
+  border: none;
+} 
+
+[type=radio]:checked ~ .octavo ~ .blanco, [type=radio]:checked ~ .noveno ~ .blanco {
+  transition: all 0.5s linear; 
+  opacity: 1; 
+  background: #fff; 
+  height: 155px; 
+  z-index: 1;
+  overflow-y:scroll;
+}
+
+/*PLANTILLA DE TIENDAS*/
+.meseta i {
+  background: #274a91; 
+  color: #fff; 
+  border: solid 1px #274a91; 
+  width: 30px; 
+  height: 30px; 
+  font-size: 30px; 
+  display: inline-block; 
+  margin: 5px;
+} 
+
+.meseta i:hover {
+  background: #fff; 
+  color: #274a91;
+}
+
+.meseta img {
+  background: #274a91; 
+  color: #fff; 
+  border: solid 1px #274a91; 
+  width: 30px; 
+  height: 30px; 
+  font-size: 30px; 
+  display: inline-block; 
+  margin: 5px;
+} 
+
+.meseta img:hover {
+  background: #ccc; 
+  color: #274a91;
+} 
+
+.woahwoah {
+  background: #274a91; 
+  color: #fff; 
+  border: solid 1px #274a91; 
+  margin: 5px; 
+  text-align: center; 
+  font-family: Abril Fatface; 
+  text-transform: uppercase; 
+  padding: 2px 0px;
+} 
+
+.woahwoah a{
+  color: #fff;
+} 
+
+.woahwoah:hover {
+  background: #ccc; 
+  color: #274a91;
+}
+
+/*NUEVA FICHA DE PERSONAJE*/
+
+.discord {
+  margin: 0 auto; 
+  width: 500px; 
+  height: 450px; 
+  background: #fff; 
+  border: solid 5px #f7f7f7; 
+  outline: solid 1px #ccc; 
+  color: #274A91; 
+  position: relative; 
+  font-family: Arial; 
+  font-size: 12px; 
+  line-height: 13px;
+} 
+
+.facebook {
+  color: #274a91; 
+  width: 250px; 
+  height: 450px; 
+  display: inline-block;
+} 
+
+.tumblr {
+  position: relative; 
+  width: 250px; 
+  height: 450px; 
+  display: inline-block; 
+  background: #274A91; 
+  vertical-align: bottom;
+} 
+
+.chrome {
+  color: #fff; 
+  font-family: Abril Fatface; 
+  padding: 60px 10px 60px 10px; 
+  font-size: 28px; 
+  line-height: 24px; 
+  text-align: center; 
+  transition: all 0.7s linear; 
+  transform: translate(0px, 0px);
+} 
+
+.edge {
+  color: #fff; 
+  font-family: Abril Fatface; 
+  text-align: center; 
+  border: solid 1px #fff; 
+  padding: 3px 0px; 
+  width: 220px; 
+  text-transform: uppercase; 
+  font-size: 10px; 
+  align: center; 
+  margin: 0px 15px 7px 15px; 
+  line-height: 14px; 
+  transition: all 0.7s linear; 
+  transform: translate(0px, 0px);
+} 
+
+.discord:hover .chrome, .discord:hover .edge{
+  transition: all 0.7s linear; 
+  transform: translate(-250px, 0px);
+} 
+
+.twitter {
+  width: 210px; 
+  height: 410px; 
+  display: inline-block; 
+  position: absolute; 
+  top: 0; 
+  opacity: 0; 
+  transition: all 0.7s linear; 
+  background: #fff; 
+  padding: 20px; 
+  overflow-y: scroll;
+} 
+
+.discord:hover .twitter {
+  opacity: 1; 
+  transition: all 0.7s linear;
+} 
+
+.app {
+  font-family: Abril Fatface; 
+  border: solid 1px #ccc; 
+  text-align: center; 
+  color: #274a91; 
+  font-size: 15px; 
+  margin: 10px 0px;
+} 
+
+.icon-genshin {
+  width: 30px; 
+  height: 30px; 
+  background: #274a91; 
+  display: inline-block; 
+  padding: 5px 2px 0px 2px; 
+  font-size: 25px; 
+  color:#fff;
+} 
+
+.asus {
+  width: 135px; 
+  display: inline-block; 
+  vertical-align: top; 
+  font-size: 20px; 
+  padding-top: 10px;
+} 
+
+.playstation {
+  background: #274A91; 
+  width: 102.5px; 
+  color: #fff; 
+  padding: 2px 0px; 
+  display: inline-block; 
+  text-align: center; 
+  margin-bottom: 10px;
+} 
+
+.xbox{
+  background: white; 
+  color: #274a91; 
+  padding: 2px 0px;
+} 
+
+.hp {
+  text-transform: uppercase; 
+  margin: 0 auto; 
+  text-align: center; 
+  font-size: 12px; 
+  font-family: Abril Fatface; 
+  width: 270px; 
+  background: #274a91; 
+  color: #fff; 
+  padding: 3px 0px;
+} 
+
+.crystal-sonic {
+  width: 500px; 
+  margin: 0 auto; 
+  color: #274a91; 
+  text-align: center; 
+  font-size: 10px;
+  text-transform: uppercase; 
+  font-family: Arial; 
+  padding-top: 5px;
+}
+
+.apple{
+  position: absolute; 
+  top:0; 
+  opacity:0; 
+  background-color:rgba(39, 74, 145, 0.7); 
+  transition:all 0.7s linear; 
+  width: 250px; 
+  height: 450px;
+} 
+
+.instagram {
+  display: block; 
+  position: relative; 
+  opacity: 1; 
+  width: 250px; 
+  height: 450px; 
+  transition: all 0.7s linear;
+}  
+
+.discord:hover .apple {
+  opacity: 1;
+} 
+
+.wolah{
+  width:205px; 
+  height: 100px;
+}
+
+/*Plantilla de NPCs*/
+.shots {
+  margin: 0 auto; 
+  background: #fff; 
+  width: 675px; 
+  border: solid 5px #f7f7f7; 
+  outline: solid 1px #ccc; 
+  font-family: Arial
+} 
+
+.vodka{
+  padding: 20px; 
+  font-family: Abril Fatface; 
+  font-size: 30px; 
+  font-weight: 900; 
+  color: #274a91; 
+  text-align: center; 
+  text-decoration: underline;
+} 
+
+.tequila {
+  position: relative; 
+  border: solid 1px #274a91; 
+  width: 160px; 
+  height: 260px; 
+  background: #ccc; 
+  display: inline-block; 
+  margin: 5px 0px 5px 5px;
+} 
+
+.gin {
+  position: relative; 
+  display:block; 
+  width: 160px; 
+  height: 260px;
+} 
+
+.ron {
+  position: absolute; 
+  bottom: 0px; 
+  text-align: center; 
+  background: #274a91; 
+  padding: 20px 0px;
+  width: 160px; 
+  height: 20px; 
+  font-family: Abril Fatface; 
+  color: #fff; 
+  transition: all 0.7s linear; 
+  transform: translate(0px, 0px);
+} 
+
+.tequila:hover .ron{
+  transition: all 0.7s linear; 
+  transform: translate(0px, -200px);
+} 
+
+.beer {
+  background: rgb(39, 74, 145, 0.4); 
+  position: absolute; 
+  height: 0px; 
+  color: #fff; 
+  width: 140px; 
+  padding: 5px 10px; 
+  transition: all 0.7s linear; 
+  transform: translate(0px, 0px); 
+  opacity: 0; 
+  overflow-y: scroll;
+}
+ 
+.tequila:hover .beer {
+  padding: 5px 10px; 
+  background: rgb(39, 74, 145, 0.4); 
+  height: 190px; 
+  width: 140px; 
+  color: #fff; 
+  transition: all 0.7s linear; 
+  transform: translate(0px, -200px); 
+  opacity: 1;} 
+
+.crystal-yupi {
+  width: 675px; 
+  margin: 0 auto; 
+  color: #274a91; 
+  text-align: center; 
+  font-size: 9px; 
+  text-transform: 
+  uppercase; 
+  font-family: Arial;
+}
+
+/*PLANTILLA CRONOLOGIA*/
+.klee2{
+  background: #000; 
+  border: 1px solid #f9f6f2; 
+  border-radius: 50%; 
+  height: 100px; 
+  overflow: hidden; 
+  width: 100px; 
+  display: inline-block;
+} 
+
+.zhongli123{
+  color: #454d5c; 
+  font-family: Roboto, sans-serif; 
+  font-size: 12px;
+  height: 100px; 
+  line-height: 14px; 
+  margin-left: 10px; 
+  overflow-y: scroll; 
+  padding: 0 10px; 
+  width: 225px; 
+  display: inline-block;
+} 
+
+.barbaraetc{
+  font-family: Abril Fatface; 
+  color: #fff; 
+  font-size: 13px;
+  background: #274a91; 
+  padding: 4px 0px 4px 5px; 
+  margin-bottom: 5px;
+}
+
+/*PLANTILLA RELACIONES*/
+.arribaabajo {
+  width: 250px; 
+  display: inline-block; 
+  margin-left: 5px; 
+  font-family: Oswald;
+} 
+
+.meseta a{
+  text-transform: uppercase; 
+  color: #274a91;
+} 
+
+.meseta a:hover {
+  color: #ff0000;
+} 
+
+.fechitaderol {
+  text-align: center; 
+  text-transform: uppercase;
+}
